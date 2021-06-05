@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Chavo App</string>
+
+<!--    prueba-->
+<!--    <string name="interticial">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    mio-->
+    <string name="interticial">ca-app-pub-3019606122027900/8827586637</string>
+
+<!--    Para recuperar datos-->
+    <string name="urlguardadatos">http://rrvqlistacompras.freevar.com/Juego_de_Aritmetica/chavoapp.php</string>
+
+    <string name="imgCambio">Cambio de Imagen</string>
+    <string name="nombresUsuario">¿Cual es tu Nombre?</string>
+    <string name="btn_comenzar">Comenzar</string>
+    <string name="score_mayor">Score</string>
+    <string name="descripcion">Descripción</string>
+
+    <string name="jugador">Jugador</string>
+    <string name="score">Puntaje</string>
+    <string name="vidas">Oportunidades</string>
+    <string name="btn_comprobar">Comprobar</string>
+    <string name="respuesta">Respuesta</string>
+
+    <string name="conexion">Error de Conexión</string>
+
+
+    <string name="cero">0</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+
+    <string name="nivel1">Nivel 1 - Sumas Básicas</string>
+    <string name="nivel2">Nivel 2 - Sumas Complejas</string>
+    <string name="nivel3">Nivel 3 - Restas</string>
+    <string name="nivel4">Nivel 4 - Sumas y Restas</string>
+    <string name="nivel5">Nivel 5 - Multiplicaciones</string>
+    <string name="nivel6">Nivel 6 - Sumas, Restas y Multiplicaciones</string>
+
+    <string name="queda2">Quedan 2 Oportunidades</string>
+    <string name="queda1">Queda 1 Oportunidad</string>
+    <string name="queda0">Quedastes sin Oportunidades</string>
+
+    <string name="escriberespuesta">Escribe la Respuesta</string>
+
+    <string name="record">Record: </string>
+    <string name="ingresarNombre">Debes Ingresar el Nombre</string>
+
+
+</resources>

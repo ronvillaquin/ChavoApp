@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="LockedOrientationActivity"
+    package="app.rrvq.chavoapp">
+
+<!--    para evitar el error de screen orientations-->
+
+    <!--xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="LockedOrientationActivity"-->
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="app.rrvq.chavoapp.Main2Activity_Nivel6"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name="app.rrvq.chavoapp.Main2Activity_Nivel5"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name="app.rrvq.chavoapp.Main2Activity_Nivel4"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name="app.rrvq.chavoapp.Main2Activity_Nivel3"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name="app.rrvq.chavoapp.Main2Activity_Nivel2"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name="app.rrvq.chavoapp.Main2Activity_Nivel1"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name="app.rrvq.chavoapp.MainActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713
+         Colocar el ID de google Admob-->
+<!--        android:value="ca-app-pub-3019606122027900~7180141664"   ESTE ES EL MIO ORIGINAL-->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3019606122027900~7180141664"/>
+
+    </application>
+
+</manifest>

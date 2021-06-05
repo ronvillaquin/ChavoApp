@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chavo App</string>
+
+    <string name="interticial">ca-app-pub-3019606122027900/8827586637</string>
+
+    <!--    Para recuperar datos-->
+    <string name="urlguardadatos">http://rrvqlistacompras.freevar.com/Juego_de_Aritmetica/chavoapp.php</string>
+
+    <string name="imgCambio">makeover</string>
+    <string name="nombresUsuario">What´s your name?</string>
+    <string name="btn_comenzar">Start</string>
+    <string name="score_mayor">Score</string>
+    <string name="descripcion">Description</string>
+
+    <string name="jugador">Player</string>
+    <string name="score">Score</string>
+    <string name="vidas">Opportunities</string>
+    <string name="btn_comprobar">Check</string>
+    <string name="respuesta">Answer</string>
+
+
+    <string name="cero">0</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+
+    <string name="nivel1">Level 1 - Basic Sums</string>
+    <string name="nivel2">Level 2 - Complex Sums</string>
+    <string name="nivel3">Level 3 - Subtraction</string>
+    <string name="nivel4">Level 4 - Addition and Subtraction</string>
+    <string name="nivel5">Level 5 - Multiplications</string>
+    <string name="nivel6">Level 6 - Additions, Subtractions and Multiplications</string>
+
+    <string name="queda2">Two opportunities remain</string>
+    <string name="queda1">An opportunity remains</string>
+    <string name="queda0">You ran out of opportunities</string>
+
+    <string name="escriberespuesta">Write the answer</string>
+
+    <string name="record">Record: </string>
+    <string name="ingresarNombre">You must enter the name</string>
+
+</resources>
