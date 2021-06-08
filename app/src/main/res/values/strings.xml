@@ -23,6 +23,11 @@
 
     <string name="conexion">Error de Conexión</string>
 
+    <string name="nuevaapp">Juegos de Aritmetica</string>
+    <string name="nuevabody">Es una app para fortalecer y poner a prueba aun mas tus conocimientos.\n\n
+        De los creadores de CHAVO APP</string>
+    <string name="descargar">Descargar</string>
+
 
     <string name="cero">0</string>
     <string name="uno">1</string>

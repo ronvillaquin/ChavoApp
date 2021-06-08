@@ -20,6 +20,14 @@
     <string name="btn_comprobar">Check</string>
     <string name="respuesta">Answer</string>
 
+    <string name="conexion">Error</string>
+
+    <string name="nuevaapp">Arithmetic Games</string>
+    <string name="nuevabody">It is an app to further strengthen and test your knowledge.\n\n
+        From the creators of CHAVO APP</string>
+    <string name="descargar">Download</string>
+
+
 
     <string name="cero">0</string>
     <string name="uno">1</string>

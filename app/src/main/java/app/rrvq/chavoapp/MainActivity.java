@@ -7,12 +7,16 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.telephony.TelephonyManager;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -50,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
      EditText caja_nombre;
      TextView mejores_puntos;
 
+     LinearLayout linearBanner;
+     Button btnDescargar;
+     CountDownTimer countDownTimer;
+
    // int aux = 1; //para poner o quitar la pista en el menubar
 
     int num_aleatorio = (int) (Math.random() * 10); // para generar numeros aleatorios para el cambio de las imgview
@@ -72,10 +80,14 @@ public class MainActivity extends AppCompatActivity {
         img_cambio_personaje = (ImageView)findViewById(R.id.img_cambio_personaje);
         caja_nombre = (EditText)findViewById(R.id.caja_nombre);
         mejores_puntos = (TextView)findViewById(R.id.mejores_puntos);
+        linearBanner = findViewById(R.id.linearBanner);
+        btnDescargar = findViewById(R.id.btnDescargar);
         //*****************************************************************************************/
 
         TelephonyManager tm = (TelephonyManager)this.getSystemService(Context.TELEPHONY_SERVICE);
         locale = tm.getNetworkCountryIso();
+
+
 
         //***********************************imagenes rotativas*********************************/
         // estructuras condicionales para mostrar la imagen al cerar y abrir el app
@@ -164,6 +176,41 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });*/
+
+
+        BannerMIO();
+        btnDescargar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Uri uri = Uri.parse("https://play.google.com/store/apps/details?id=com.rrvq.aritmetica&hl=es_PE&gl=US");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+    }
+
+    public void BannerMIO(){
+
+        countDownTimer = new CountDownTimer(10000, 1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+
+                linearBanner.setVisibility(View.VISIBLE);
+
+            }
+
+            @Override
+            public void onFinish() {
+
+                linearBanner.setVisibility(View.GONE);
+
+            }
+        }.start();
 
     }
 
